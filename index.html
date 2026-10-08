@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faiaz Al Meherab Jaman | Commercial & International Trade Professional</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['"Playfair Display"', 'serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0f7ff',
+              100: '#e0effe',
+              200: '#bae0fd',
+              600: '#0284c7',
+              700: '#0369a1',
+              800: '#075985',
+              900: '#0c4a6e',
+              950: '#082f49',
+            },
+            accent: {
+              500: '#d97706',
+              600: '#b45309',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @media print {
+      .no-print { display: none !important; }
+      body { background: white !important; color: black !important; }
+      .print-shadow-none { box-shadow: none !important; }
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-sky-500 selection:text-white">
+
+  <!-- Navigation Bar -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200 no-print transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="#hero" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-sky-800 to-sky-600 flex items-center justify-center text-white font-bold text-lg shadow-md group-hover:scale-105 transition-transform">
+          FM
+        </div>
+        <div>
+          <span class="block font-bold text-slate-900 tracking-tight leading-none text-base">Faiaz Al Meherab Jaman</span>
+          <span class="text-xs font-semibold text-sky-700 tracking-wider uppercase">Commercial & Trade Specialist</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-8 font-medium text-sm text-slate-600">
+        <a href="#about" class="hover:text-sky-700 transition">About</a>
+        <a href="#expertise" class="hover:text-sky-700 transition">Competencies</a>
+        <a href="#experience" class="hover:text-sky-700 transition">Experience</a>
+        <a href="#partners" class="hover:text-sky-700 transition">Global Brands</a>
+        <a href="#education" class="hover:text-sky-700 transition">Education & Law</a>
+        <a href="#references" class="hover:text-sky-700 transition">References</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-3">
+        <button onclick="window.print()" class="hidden sm:inline-flex items-center gap-2 px-3.5 py-2 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 text-slate-700 text-xs font-semibold transition shadow-sm">
+          <i data-lucide="printer" class="w-4 h-4 text-slate-600"></i> Print / Save PDF
+        </button>
+        <a href="#contact" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-sky-800 hover:bg-sky-900 text-white text-xs font-semibold shadow-sm transition hover:shadow">
+          <i data-lucide="mail" class="w-4 h-4"></i> Get in Touch
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="relative overflow-hidden bg-gradient-to-b from-slate-900 via-slate-900 to-sky-950 text-white py-16 lg:py-24">
+    <!-- Subtle Background Grid Pattern -->
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Column: Bio & Value Statement -->
+        <div class="lg:col-span-8 space-y-6">
+          <div class="inline-flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-sky-500/20 border border-sky-400/30 text-sky-300 text-xs font-semibold uppercase tracking-wider">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            Commercial Operations & Regulatory Specialist
+          </div>
+
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight">
+            Bridging <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-teal-300">International Trade Logistics</span> with Business & Legal Precision
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl font-light">
+            Commercial Officer with over <strong>3.3+ years</strong> of dedicated experience managing complex export-import lifecycles, Letter of Credit (LC) operations, bonded warehouse compliance, and international logistics. Combining an <strong>MBA in Business Administration</strong> with an <strong>LL.B. in Law</strong> to safeguard compliance, eliminate documentation discrepancies, and optimize supply chains for global retail giants.
+          </p>
+
+          <!-- Core Badges -->
+          <div class="flex flex-wrap gap-2.5 pt-2">
+            <span class="px-3 py-1 bg-slate-800/80 border border-slate-700 text-slate-200 text-xs font-medium rounded-md flex items-center gap-1.5">
+              <i data-lucide="file-check" class="w-3.5 h-3.5 text-sky-400"></i> LC, UPAS & EDF Operations
+            </span>
+            <span class="px-3 py-1 bg-slate-800/80 border border-slate-700 text-slate-200 text-xs font-medium rounded-md flex items-center gap-1.5">
+              <i data-lucide="shield-alert" class="w-3.5 h-3.5 text-teal-400"></i> Customs & Bonded SRO Compliance
+            </span>
+            <span class="px-3 py-1 bg-slate-800/80 border border-slate-700 text-slate-200 text-xs font-medium rounded-md flex items-center gap-1.5">
+              <i data-lucide="scale" class="w-3.5 h-3.5 text-amber-400"></i> Commercial Law & Contract Audit
+            </span>
+            <span class="px-3 py-1 bg-slate-800/80 border border-slate-700 text-slate-200 text-xs font-medium rounded-md flex items-center gap-1.5">
+              <i data-lucide="ship" class="w-3.5 h-3.5 text-indigo-400"></i> Multimodal Freight & Forwarding
+            </span>
+          </div>
+
+          <!-- Quick Contacts & Links -->
+          <div class="pt-4 flex flex-wrap items-center gap-4 text-xs text-slate-300">
+            <a href="mailto:meherabjaman84@gmail.com" class="flex items-center gap-2 hover:text-sky-300 transition bg-slate-800/60 px-3 py-2 rounded-lg border border-slate-700/60">
+              <i data-lucide="mail" class="w-4 h-4 text-sky-400"></i> meherabjaman84@gmail.com
+            </a>
+            <a href="tel:+8801990174455" class="flex items-center gap-2 hover:text-sky-300 transition bg-slate-800/60 px-3 py-2 rounded-lg border border-slate-700/60">
+              <i data-lucide="phone" class="w-4 h-4 text-emerald-400"></i> +880 1990174455
+            </a>
+            <a href="https://www.linkedin.com/in/faiaz-al-meherab-jaman-9a7699290" target="_blank" rel="noreferrer" class="flex items-center gap-2 hover:text-sky-300 transition bg-slate-800/60 px-3 py-2 rounded-lg border border-slate-700/60">
+              <i data-lucide="linkedin" class="w-4 h-4 text-blue-400"></i> LinkedIn Profile
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Column: Profile Card & Key Metrics -->
+        <div class="lg:col-span-4">
+          <div class="relative bg-slate-800/70 backdrop-blur-md border border-slate-700/70 p-6 rounded-2xl shadow-2xl text-center space-y-5">
+            <!-- Profile Avatar / Image Representation -->
+            <div class="relative mx-auto w-32 h-32 rounded-2xl overflow-hidden ring-4 ring-sky-500/30 shadow-lg bg-slate-700">
+              <div class="w-full h-full bg-gradient-to-br from-slate-700 via-sky-900 to-slate-900 flex flex-col items-center justify-center text-slate-200">
+                <i data-lucide="user-check" class="w-12 h-12 text-sky-400 mb-1"></i>
+                <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-300">Faiaz Al Meherab</span>
+              </div>
+            </div>
+
+            <div>
+              <h2 class="text-xl font-bold text-white">Faiaz Al Meherab Jaman</h2>
+              <p class="text-xs text-sky-300 font-medium mt-0.5">Sr. Executive – Commercial</p>
+              <p class="text-[11px] text-slate-400 mt-1">OMC Footwear Ltd. • Ex-Rahaman Sports Wear</p>
+            </div>
+
+            <!-- Quick Metrics Grid -->
+            <div class="grid grid-cols-2 gap-3 pt-2 text-left">
+              <div class="p-3 bg-slate-900/60 rounded-xl border border-slate-700/50">
+                <div class="text-2xl font-bold text-sky-400">3.3+</div>
+                <div class="text-[11px] text-slate-300 font-medium">Years in EXIM & Trade</div>
+              </div>
+              <div class="p-3 bg-slate-900/60 rounded-xl border border-slate-700/50">
+                <div class="text-2xl font-bold text-teal-400">100%</div>
+                <div class="text-[11px] text-slate-300 font-medium">Audit & SRO Compliance</div>
+              </div>
+              <div class="p-3 bg-slate-900/60 rounded-xl border border-slate-700/50">
+                <div class="text-2xl font-bold text-amber-400">Top 5+</div>
+                <div class="text-[11px] text-slate-300 font-medium">Global Brands (ZARA, Decathlon)</div>
+              </div>
+              <div class="p-3 bg-slate-900/60 rounded-xl border border-slate-700/50">
+                <div class="text-2xl font-bold text-indigo-400">Dual</div>
+                <div class="text-[11px] text-slate-300 font-medium">MBA + LL.B. Degree</div>
+              </div>
+            </div>
+
+            <div class="pt-2">
+              <a href="#contact" class="block w-full py-2.5 px-4 bg-gradient-to-r from-sky-600 to-teal-600 hover:from-sky-500 hover:to-teal-500 text-white rounded-xl text-xs font-bold uppercase tracking-wider shadow-md transition">
+                Initiate Trade Consultation
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Executive Summary & Unique Value Proposition -->
+  <section id="about" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-12">
+        <span class="text-xs font-bold tracking-widest text-sky-700 uppercase">Professional Narrative</span>
+        <h2 class="text-3xl font-extrabold text-slate-900 mt-1">Why Legal Insight & Commercial Acumen Matter</h2>
+        <p class="text-slate-600 mt-3 text-base">
+          In international supply chains, minor discrepancies in Letters of Credit or customs documentation lead to heavy demurrages, cash realization holds, and legal liabilities. My dual specialization in <strong>Business Administration (MBA)</strong> and <strong>Law (LL.B.)</strong> equips me to bridge the gap between financial execution and regulatory adherence.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Pillar 1 -->
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-sky-300 transition hover:shadow-lg space-y-3">
+          <div class="w-12 h-12 rounded-xl bg-sky-100 text-sky-800 flex items-center justify-center font-bold">
+            <i data-lucide="badge-dollar-sign" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900">Trade Finance & Banking</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Hands-on governance of complex trade instruments including Sight L/C, Deferred/Usance L/C, UPAS, and Export Development Fund (EDF). Rapid discrepancy resolution with confirming and negotiating banks to ensure frictionless cash inflows.
+          </p>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-teal-300 transition hover:shadow-lg space-y-3">
+          <div class="w-12 h-12 rounded-xl bg-teal-100 text-teal-800 flex items-center justify-center font-bold">
+            <i data-lucide="shield-check" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900">Bond & Customs Clearance</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Uncompromising alignment with National Board of Revenue (NBR) circulars, SRO updates, and bonded warehouse regulations. Spearheaded expedited customs clearance with zero major audit queries or regulatory citations.
+          </p>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-amber-300 transition hover:shadow-lg space-y-3">
+          <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center font-bold">
+            <i data-lucide="scale" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900">Contract & Dispute Mitigation</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Rooted in legal jurisprudence (LL.B.), evaluating proforma invoices, sales contracts, Incoterms 2020 clauses, and charter-party terms to shield the manufacturing enterprise against maritime and buyer default liabilities.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Functional Competencies -->
+  <section id="expertise" class="py-16 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-xs font-bold tracking-widest text-sky-700 uppercase">Specialized Toolset</span>
+        <h2 class="text-3xl font-extrabold text-slate-900 mt-1">Core Functional Competencies</h2>
+        <p class="text-slate-600 text-sm mt-2">Comprehensive lifecycle coverage from purchase order issuance to export proceeds realization.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Competency Card 1 -->
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="p-2.5 rounded-lg bg-sky-50 text-sky-700">
+              <i data-lucide="file-text" class="w-5 h-5"></i>
+            </div>
+            <h4 class="font-bold text-slate-900 text-base">Commercial Documentation</h4>
+          </div>
+          <ul class="space-y-2 text-xs text-slate-600">
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Proforma Invoice (PI) & Purchase Order (PO) vetting</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Commercial Invoice & Detailed Packing Lists</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>EXP Form, Certificate of Origin (CO), GSP, Form A</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Bill of Lading (B/L), Sea Waybill & Air Waybill (AWB)</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Competency Card 2 -->
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="p-2.5 rounded-lg bg-sky-50 text-sky-700">
+              <i data-lucide="landmark" class="w-5 h-5"></i>
+            </div>
+            <h4 class="font-bold text-slate-900 text-base">Trade Finance & Banking</h4>
+          </div>
+          <ul class="space-y-2 text-xs text-slate-600">
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Opening Back-to-Back (BTB) & Import Letters of Credit</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>LC amendments, document verification & UCP 600 rules</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Export Development Fund (EDF) & UPAS financing</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Discrepancy negotiation and cash incentive claim submissions</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Competency Card 3 -->
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="p-2.5 rounded-lg bg-sky-50 text-sky-700">
+              <i data-lucide="truck" class="w-5 h-5"></i>
+            </div>
+            <h4 class="font-bold text-slate-900 text-base">Logistics & C&F Operations</h4>
+          </div>
+          <ul class="space-y-2 text-xs text-slate-600">
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Freight forwarding rate negotiation & container allocation</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Customs clearance monitoring at Chittagong Port & Airport</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Lead-time optimization for production raw material flow</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Demurrage & detention charge minimization protocols</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Competency Card 4 -->
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="p-2.5 rounded-lg bg-sky-50 text-sky-700">
+              <i data-lucide="warehouse" class="w-5 h-5"></i>
+            </div>
+            <h4 class="font-bold text-slate-900 text-base">Bonded Warehouse & VAT</h4>
+          </div>
+          <ul class="space-y-2 text-xs text-slate-600">
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Bond license renewal, passbook entry & entitlement audit</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Raw material utilization declarations and wastage audit</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>NBR SRO compliance, VAT and tariff calculation</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Strict compliance record with zero major customs penalties</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Competency Card 5 -->
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="p-2.5 rounded-lg bg-sky-50 text-sky-700">
+              <i data-lucide="cpu" class="w-5 h-5"></i>
+            </div>
+            <h4 class="font-bold text-slate-900 text-base">ERP & Systems Management</h4>
+          </div>
+          <ul class="space-y-2 text-xs text-slate-600">
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Enterprise ERP software maintenance for commercial entries</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Management Information System (MIS) shipment tracking</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Inventory availability reporting for factory floors</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Automated commercial KPI tracking and management decks</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Competency Card 6 -->
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="p-2.5 rounded-lg bg-sky-50 text-sky-700">
+              <i data-lucide="users" class="w-5 h-5"></i>
+            </div>
+            <h4 class="font-bold text-slate-900 text-base">Stakeholder Coordination</h4>
+          </div>
+          <ul class="space-y-2 text-xs text-slate-600">
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>International Buyer liaison (Inditex/ZARA, Decathlon, etc.)</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Government office & customs commissionerate relationship</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Internal cross-functional synergy with Merchandising & QA</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-teal-600 shrink-0 mt-0.5"></i>
+              <span>Vendor negotiations for competitive pricing and terms</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience Timeline -->
+  <section id="experience" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-xs font-bold tracking-widest text-sky-700 uppercase">Track Record</span>
+          <h2 class="text-3xl font-extrabold text-slate-900 mt-1">Professional Experience</h2>
+        </div>
+        <div class="text-sm font-semibold text-slate-500 mt-2 md:mt-0">
+          Total Commercial Experience: <span class="text-sky-800 font-bold">3.3+ Years</span>
+        </div>
+      </div>
+
+      <div class="space-y-10 relative before:absolute before:inset-0 before:left-8 before:w-0.5 before:bg-slate-200 md:before:left-1/2 md:before:-translate-x-1/2">
+        
+        <!-- Experience 1: OMC Footwear Ltd. -->
+        <div class="relative flex flex-col md:flex-row items-start group">
+          <!-- Timeline Pin -->
+          <div class="absolute left-8 md:left-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-white border-4 border-sky-600 z-10"></div>
+          
+          <div class="ml-16 md:ml-0 md:w-1/2 md:pr-12 md:text-right">
+            <span class="inline-block px-3 py-1 bg-sky-100 text-sky-800 text-xs font-bold rounded-full mb-2">
+              Jan 2026 – Present
+            </span>
+            <h3 class="text-xl font-bold text-slate-900">Sr. Executive – Commercial</h3>
+            <div class="text-sm font-semibold text-sky-800 mb-1">OMC Footwear Ltd.</div>
+            <div class="text-xs text-slate-500 mb-4 flex items-center gap-1 md:justify-end">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Rupganj, Narayanganj
+            </div>
+          </div>
+
+          <div class="ml-16 md:ml-0 md:w-1/2 md:pl-12">
+            <div class="p-6 bg-slate-50 border border-slate-200 rounded-2xl shadow-sm space-y-4">
+              <p class="text-xs text-slate-700 leading-relaxed font-medium">
+                Leading the international commercial desk for global footwear and apparel orders, managing end-to-end LC documentation, shipping compliance, and forwarder liaisons.
+              </p>
+              <ul class="space-y-2 text-xs text-slate-600">
+                <li class="flex items-start gap-2">
+                  <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-sky-600 shrink-0 mt-0.5"></i>
+                  <span>Directly coordinated purchase order processing and shipments for world-class buyers including <strong>ZARA, Decathlon, Deichmann, DC, and BBC</strong>.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-sky-600 shrink-0 mt-0.5"></i>
+                  <span>Prepared and verified exhaustive commercial documentation: PI, LC, Commercial Invoices, Packing Lists, B/L, Certificate of Origin (CO), GSP, and EXP forms.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-sky-600 shrink-0 mt-0.5"></i>
+                  <span>Partnered with tier-1 shipping lines and freight forwarders: <strong>APL Logistics, DSV, TEAM Group, GTCL, and MSC</strong> to guarantee timely container bookings.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-sky-600 shrink-0 mt-0.5"></i>
+                  <span>Steered LC opening, banking negotiation, and proceeds realization, driving down turnaround times and maintaining accurate MIS reports.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 2: Rahaman Sports Wear LTD -->
+        <div class="relative flex flex-col md:flex-row items-start group">
+          <!-- Timeline Pin -->
+          <div class="absolute left-8 md:left-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-white border-4 border-slate-400 z-10"></div>
+          
+          <div class="ml-16 md:ml-0 md:w-1/2 md:pr-12 md:text-right">
+            <span class="inline-block px-3 py-1 bg-slate-200 text-slate-700 text-xs font-bold rounded-full mb-2">
+              Jul 2023 – Dec 2025 (2.5 Years)
+            </span>
+            <h3 class="text-xl font-bold text-slate-900">Executive Commercial Officer</h3>
+            <div class="text-sm font-semibold text-slate-700 mb-1">Rahaman Sports Wear LTD</div>
+            <div class="text-xs text-slate-500 mb-4 flex items-center gap-1 md:justify-end">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Narayanganj, Bangladesh
+            </div>
+          </div>
+
+          <div class="ml-16 md:ml-0 md:w-1/2 md:pl-12">
+            <div class="p-6 bg-slate-50 border border-slate-200 rounded-2xl shadow-sm space-y-4">
+              <p class="text-xs text-slate-700 leading-relaxed font-medium">
+                Directed core export-import routines, financial reporting, customs clearance, and procurement logistics in an export-oriented garments manufacturing facility.
+              </p>
+              <ul class="space-y-2 text-xs text-slate-600">
+                <li class="flex items-start gap-2">
+                  <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-sky-600 shrink-0 mt-0.5"></i>
+                  <span>Maintained <strong>zero major regulatory non-compliance issues</strong> and zero major audit objections across 2.5 years of import/export cycles.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-sky-600 shrink-0 mt-0.5"></i>
+                  <span>Significantly reduced customs clearance lead time by optimizing collaboration with C&F agents and Chittagong customs authorities.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-sky-600 shrink-0 mt-0.5"></i>
+                  <span>Negotiated freight and supplier pricing with local and foreign vendors, securing measurable transport cost savings.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-sky-600 shrink-0 mt-0.5"></i>
+                  <span>Managed bonded warehouse operations, passbook registers, VAT compliance, and timely raw material clearance to prevent factory downtime.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Buyers & Logistics Ecosystem -->
+  <section id="partners" class="py-16 bg-slate-900 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-bold tracking-widest text-sky-400 uppercase">Global Industry Network</span>
+        <h2 class="text-3xl font-extrabold text-white mt-1">Buyers & Shipping Lines Handled</h2>
+        <p class="text-slate-400 text-sm mt-2">Demonstrated expertise coordinating international standards with major global retail buyers and premier ocean/air carriers.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Buyers Box -->
+        <div class="p-8 rounded-2xl bg-slate-800/80 border border-slate-700 space-y-5">
+          <div class="flex items-center gap-3">
+            <div class="p-3 bg-sky-500/20 text-sky-400 rounded-xl">
+              <i data-lucide="shopping-bag" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold text-white">International Fashion & Retail Buyers</h3>
+              <p class="text-xs text-slate-400">Strict standard compliance for documentation, inspections & delivery</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
+            <div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-700/60 text-center">
+              <div class="text-base font-bold text-white tracking-widest">ZARA</div>
+              <div class="text-[10px] text-slate-400 mt-1">Inditex Group</div>
+            </div>
+            <div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-700/60 text-center">
+              <div class="text-base font-bold text-white tracking-wider">DECATHLON</div>
+              <div class="text-[10px] text-slate-400 mt-1">Global Sports</div>
+            </div>
+            <div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-700/60 text-center">
+              <div class="text-base font-bold text-white">DEICHMANN</div>
+              <div class="text-[10px] text-slate-400 mt-1">Europe Footwear</div>
+            </div>
+            <div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-700/60 text-center">
+              <div class="text-base font-bold text-white">DC SHOES</div>
+              <div class="text-[10px] text-slate-400 mt-1">Action Sports</div>
+            </div>
+            <div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-700/60 text-center">
+              <div class="text-base font-bold text-white">BBC</div>
+              <div class="text-[10px] text-slate-400 mt-1">International</div>
+            </div>
+            <div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-700/60 text-center flex flex-col justify-center">
+              <div class="text-xs font-semibold text-sky-400">+ Global Accounts</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Logistics Partners Box -->
+        <div class="p-8 rounded-2xl bg-slate-800/80 border border-slate-700 space-y-5">
+          <div class="flex items-center gap-3">
+            <div class="p-3 bg-teal-500/20 text-teal-400 rounded-xl">
+              <i data-lucide="container" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold text-white">Freight Forwarders & Carriers</h3>
+              <p class="text-xs text-slate-400">Regular booking, BL release, schedule tracking and clearance</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
+            <div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-700/60 text-center">
+              <div class="text-base font-bold text-white">APL Logistics</div>
+              <div class="text-[10px] text-slate-400 mt-1">Global 3PL</div>
+            </div>
+            <div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-700/60 text-center">
+              <div class="text-base font-bold text-white">DSV</div>
+              <div class="text-[10px] text-slate-400 mt-1">Global Transport</div>
+            </div>
+            <div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-700/60 text-center">
+              <div class="text-base font-bold text-white">MSC</div>
+              <div class="text-[10px] text-slate-400 mt-1">Ocean Carrier</div>
+            </div>
+            <div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-700/60 text-center">
+              <div class="text-base font-bold text-white">TEAM Group</div>
+              <div class="text-[10px] text-slate-400 mt-1">Logistics / Freight</div>
+            </div>
+            <div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-700/60 text-center">
+              <div class="text-base font-bold text-white">GTCL</div>
+              <div class="text-[10px] text-slate-400 mt-1">Supply Chain</div>
+            </div>
+            <div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-700/60 text-center flex flex-col justify-center">
+              <div class="text-xs font-semibold text-teal-400">+ C&F Networks</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education, Certifications & Legal Credentials -->
+  <section id="education" class="py-16 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-xs font-bold tracking-widest text-sky-700 uppercase">Academic & Professional Pedigree</span>
+        <h2 class="text-3xl font-extrabold text-slate-900 mt-1">Education & Certifications</h2>
+        <p class="text-slate-600 text-sm mt-2">The intersection of business administration, legal jurisprudence, and supply chain management.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Degrees Column -->
+        <div class="space-y-4">
+          <h3 class="text-lg font-bold text-slate-900 flex items-center gap-2">
+            <i data-lucide="graduation-cap" class="w-5 h-5 text-sky-700"></i> Academic Degrees
+          </h3>
+
+          <!-- MBA -->
+          <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm hover:border-sky-300 transition space-y-1.5">
+            <div class="flex justify-between items-start">
+              <div>
+                <h4 class="font-bold text-slate-900 text-base">Masters of Business Administration (MBA)</h4>
+                <p class="text-xs font-semibold text-sky-700">Patuakhali Science and Technology University (PSTU)</p>
+              </div>
+              <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-bold rounded">2025</span>
+            </div>
+            <p class="text-xs text-slate-600">Major: Business Administration • CGPA: 3.06 / 4.00</p>
+            <p class="text-xs text-slate-500">Specialization in Organizational Leadership, Strategic Sourcing, and Management Information Systems.</p>
+          </div>
+
+          <!-- LL.B. -->
+          <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm hover:border-sky-300 transition space-y-1.5">
+            <div class="flex justify-between items-start">
+              <div>
+                <h4 class="font-bold text-slate-900 text-base">Bachelor of Laws (LL.B.)</h4>
+                <p class="text-xs font-semibold text-sky-700">Global University Bangladesh</p>
+              </div>
+              <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-bold rounded">2023</span>
+            </div>
+            <p class="text-xs text-slate-600">Focus: Commercial & Corporate Law • <strong class="text-emerald-700">First Division / Class</strong></p>
+            <p class="text-xs text-slate-500">In-depth foundation in Contract Law, Customs & Taxation Acts, Maritime Jurisprudence, and International Trade Regulations.</p>
+          </div>
+
+          <!-- Secondary Foundations -->
+          <div class="grid grid-cols-2 gap-3 pt-1">
+            <div class="p-4 bg-white rounded-xl border border-slate-200 text-xs">
+              <span class="font-bold text-slate-900 block">Higher Secondary (HSC)</span>
+              <span class="text-slate-600 block">Govt. Barishal College (2019)</span>
+              <span class="text-slate-500 block text-[11px] mt-1">Science Group</span>
+            </div>
+            <div class="p-4 bg-white rounded-xl border border-slate-200 text-xs">
+              <span class="font-bold text-slate-900 block">Secondary School (SSC)</span>
+              <span class="text-slate-600 block">Udayan Secondary School (2017)</span>
+              <span class="text-slate-500 block text-[11px] mt-1">Science • GPA 4.45 / 5.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certifications, Training & Skills -->
+        <div class="space-y-4">
+          <h3 class="text-lg font-bold text-slate-900 flex items-center gap-2">
+            <i data-lucide="award" class="w-5 h-5 text-amber-600"></i> Certifications & Technical Skills
+          </h3>
+
+          <!-- Certification 1 -->
+          <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm space-y-1">
+            <div class="flex justify-between items-start">
+              <h4 class="font-bold text-slate-900 text-sm">Supply Chain Management Certification</h4>
+              <span class="text-xs font-semibold text-slate-500">2023</span>
+            </div>
+            <p class="text-xs text-slate-600">Rahman Sports Wear Ltd. (6-Month Rigorous Practical Certification)</p>
+            <p class="text-xs text-slate-500">Covered procurement optimization, inventory replenishment, vendor risk rating, and logistics pipelines.</p>
+          </div>
+
+          <!-- Certification 2 -->
+          <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm space-y-1">
+            <div class="flex justify-between items-start">
+              <h4 class="font-bold text-slate-900 text-sm">Export & Import Commercial Operations</h4>
+              <span class="text-xs font-semibold text-slate-500">2023</span>
+            </div>
+            <p class="text-xs text-slate-600">Rahman Sports Wear Ltd. Training Program</p>
+            <p class="text-xs text-slate-500">Intensive training in Letter of Credit lifecycle, customs tariffs, C&F port operations, and Bangladesh Bank foreign exchange circulars.</p>
+          </div>
+
+          <!-- Linguistic Proficiency -->
+          <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm space-y-3">
+            <h4 class="font-bold text-slate-900 text-xs uppercase tracking-wider text-slate-500">Multilingual Fluency</h4>
+            <div class="space-y-2 text-xs">
+              <div>
+                <div class="flex justify-between font-semibold text-slate-800 mb-1">
+                  <span>English (Professional & Business Negotiation)</span>
+                  <span>Advanced / High</span>
+                </div>
+                <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden">
+                  <div class="bg-sky-600 h-1.5 rounded-full w-[95%]"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between font-semibold text-slate-800 mb-1">
+                  <span>Bangla (Native)</span>
+                  <span>Native / Fluent</span>
+                </div>
+                <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden">
+                  <div class="bg-teal-600 h-1.5 rounded-full w-[100%]"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between font-semibold text-slate-800 mb-1">
+                  <span>Hindi (Spoken / Communication)</span>
+                  <span>Working Verbal</span>
+                </div>
+                <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden">
+                  <div class="bg-amber-600 h-1.5 rounded-full w-[70%]"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Verified References Section -->
+  <section id="references" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-bold tracking-widest text-sky-700 uppercase">Endorsement</span>
+        <h2 class="text-3xl font-extrabold text-slate-900 mt-1">Professional & Academic References</h2>
+        <p class="text-slate-600 text-sm mt-2">Verified references available for formal background checks and commercial appraisals.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        
+        <!-- Reference 1: Academic -->
+        <div class="p-6 bg-slate-50 border border-slate-200 rounded-2xl relative space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-sky-100 text-sky-800 flex items-center justify-center font-bold text-lg">
+              NN
+            </div>
+            <div>
+              <h3 class="font-bold text-slate-900 text-base">Dr. Md. Nur Nabi</h3>
+              <p class="text-xs text-sky-800 font-semibold">Professor</p>
+              <p class="text-xs text-slate-500">Patuakhali Science & Technology University (PSTU)</p>
+            </div>
+          </div>
+          
+          <div class="space-y-1.5 text-xs text-slate-600 border-t border-slate-200 pt-3">
+            <div class="flex items-center gap-2">
+              <i data-lucide="mail" class="w-3.5 h-3.5 text-slate-400"></i>
+              <a href="mailto:nurnabi@pstu.ac.bd" class="hover:text-sky-700 transition">nurnabi@pstu.ac.bd</a>
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="phone" class="w-3.5 h-3.5 text-slate-400"></i>
+              <span>+880 1775463232</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-400"></i>
+              <span>Patuakhali-8602, Bangladesh (Academic Mentor)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reference 2: Professional -->
+        <div class="p-6 bg-slate-50 border border-slate-200 rounded-2xl relative space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-teal-100 text-teal-800 flex items-center justify-center font-bold text-lg">
+              AH
+            </div>
+            <div>
+              <h3 class="font-bold text-slate-900 text-base">Abu Kausar Hriday</h3>
+              <p class="text-xs text-teal-800 font-semibold">Manager (Commercial & Import)</p>
+              <p class="text-xs text-slate-500">Utah Group</p>
+            </div>
+          </div>
+          
+          <div class="space-y-1.5 text-xs text-slate-600 border-t border-slate-200 pt-3">
+            <div class="flex items-center gap-2">
+              <i data-lucide="mail" class="w-3.5 h-3.5 text-slate-400"></i>
+              <a href="mailto:import2@utahgroup.net" class="hover:text-sky-700 transition">import2@utahgroup.net</a>
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="phone" class="w-3.5 h-3.5 text-slate-400"></i>
+              <span>+880 1624688300 / Office: 022222-94356</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-400"></i>
+              <span>Dhanmondi, Dhaka (Industry Reference)</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Career Inquiry Section -->
+  <section id="contact" class="py-16 bg-slate-900 text-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-6 space-y-6">
+          <span class="text-xs font-bold tracking-widest text-sky-400 uppercase">Availability & Relocation</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Let’s Discuss Your Commercial & Trade Operations</h2>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            Actively seeking mid-to-senior commercial opportunities with export-import manufacturing conglomerates, buying offices, banking trade desks, or multinational retail subsidiaries. Open to roles across Bangladesh and globally.
+          </p>
+
+          <div class="space-y-4 pt-2">
+            <div class="flex items-start gap-3">
+              <div class="p-2.5 rounded-lg bg-slate-800 border border-slate-700 text-sky-400">
+                <i data-lucide="map-pin" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-xs font-semibold text-slate-400 uppercase">Current Station</h4>
+                <p class="text-sm font-medium text-white">Mohakhali, Dhaka, Bangladesh (Permanent: Barishal)</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <div class="p-2.5 rounded-lg bg-slate-800 border border-slate-700 text-sky-400">
+                <i data-lucide="globe" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-xs font-semibold text-slate-400 uppercase">Preferred Geographic Regions</h4>
+                <p class="text-sm font-medium text-white">Bangladesh, Canada, Australia, France, Italy, Finland, Cyprus</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <div class="p-2.5 rounded-lg bg-slate-800 border border-slate-700 text-sky-400">
+                <i data-lucide="phone-call" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-xs font-semibold text-slate-400 uppercase">Direct Mobile Contacts</h4>
+                <p class="text-sm font-medium text-white">+880 1990174455 / +880 1829775157</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Message / Inquiry Card -->
+        <div class="lg:col-span-6">
+          <div class="bg-slate-800/90 border border-slate-700 p-8 rounded-2xl shadow-xl space-y-5">
+            <h3 class="text-xl font-bold text-white">Direct Message Faiaz</h3>
+            <p class="text-xs text-slate-400">Send an immediate message via your default mail client or copy contact coordinates.</p>
+
+            <form onsubmit="handleContactSubmit(event)" class="space-y-4">
+              <div>
+                <label class="block text-xs font-medium text-slate-300 mb-1">Your Name / Organization</label>
+                <input type="text" id="senderName" required placeholder="e.g. Talent Acquisition, Apex Group" class="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700 rounded-lg text-white text-xs placeholder:text-slate-500 focus:outline-none focus:border-sky-500">
+              </div>
+
+              <div>
+                <label class="block text-xs font-medium text-slate-300 mb-1">Subject / Role Opportunity</label>
+                <input type="text" id="msgSubject" required placeholder="Commercial Manager / Senior LC Specialist" class="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700 rounded-lg text-white text-xs placeholder:text-slate-500 focus:outline-none focus:border-sky-500">
+              </div>
+
+              <div>
+                <label class="block text-xs font-medium text-slate-300 mb-1">Brief Overview / Inquiry</label>
+                <textarea id="msgBody" rows="3" required placeholder="We are interested in discussing commercial management opportunities..." class="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700 rounded-lg text-white text-xs placeholder:text-slate-500 focus:outline-none focus:border-sky-500"></textarea>
+              </div>
+
+              <div class="flex flex-col sm:flex-row gap-3 pt-2">
+                <button type="submit" class="flex-1 py-3 px-4 bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs uppercase tracking-wider rounded-lg shadow transition flex items-center justify-center gap-2">
+                  <i data-lucide="send" class="w-4 h-4"></i> Dispatch Email
+                </button>
+                <button type="button" onclick="copyContactInfo()" class="py-3 px-4 bg-slate-700 hover:bg-slate-600 text-slate-200 font-semibold text-xs rounded-lg transition flex items-center justify-center gap-2">
+                  <i data-lucide="copy" class="w-4 h-4"></i> <span id="copyBtnText">Copy Email & Phone</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 text-slate-500 py-8 border-t border-slate-800 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>
+        © 2026 <strong>Faiaz Al Meherab Jaman</strong>. All Rights Reserved. Commercial & International Trade Professional.
+      </div>
+      <div class="flex items-center gap-6">
+        <a href="#hero" class="hover:text-slate-300 transition">Back to Top</a>
+        <a href="https://www.linkedin.com/in/faiaz-al-meherab-jaman-9a7699290" target="_blank" class="hover:text-slate-300 transition">LinkedIn</a>
+        <a href="mailto:meherabjaman84@gmail.com" class="hover:text-slate-300 transition">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Contact Form Handler
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      const name = encodeURIComponent(document.getElementById('senderName').value);
+      const subject = encodeURIComponent(document.getElementById('msgSubject').value);
+      const body = encodeURIComponent(
+        `Dear Faiaz,\n\nMy name is ${decodeURIComponent(name)}.\n\n${document.getElementById('msgBody').value}\n\nBest regards,\n${decodeURIComponent(name)}`
+      );
+      window.location.href = `mailto:meherabjaman84@gmail.com?subject=[Inquiry] ${subject}&body=${body}`;
+    }
+
+    // Quick Copy Function
+    function copyContactInfo() {
+      const textToCopy = "Faiaz Al Meherab Jaman | Email: meherabjaman84@gmail.com | Phone: +8801990174455 / +8801829775157 | LinkedIn: https://www.linkedin.com/in/faiaz-al-meherab-jaman-9a7699290";
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        const btnText = document.getElementById('copyBtnText');
+        const oldText = btnText.innerText;
+        btnText.innerText = "Copied to Clipboard!";
+        setTimeout(() => {
+          btnText.innerText = oldText;
+        }, 2500);
+      });
+    }
+  </script>
+</body>
+</html>
